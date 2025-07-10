@@ -28,9 +28,6 @@
 
 export { Plakar } from "./plakar";
 
-// Export all types
-export * from "./types";
-
 // Export installation utilities
 export { PlakarInstaller, isPlakarInstalled, installPlakar, ensurePlakarInstalled, type InstallOptions, type InstallResult, type CheckResult } from "./installer";
 
